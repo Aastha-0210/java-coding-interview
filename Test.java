@@ -11,7 +11,7 @@ public class Test {
 
         for (char ch : str.toCharArray()) {
             countMap.put(ch, countMap.getOrDefault(ch, 0) + 1);
-        }
+        } 
 
         for (Map.Entry<Character,  Integer> entry : countMap.entrySet()) {
             if (entry.getValue() == 1) {
