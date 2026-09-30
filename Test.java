@@ -13,7 +13,7 @@ public class Test {
             countMap.put(ch, countMap.getOrDefault(ch, 0) + 1);
         }
 
-        for (Map.Entry<Character, Integer> entry : countMap.entrySet()) {
+        for (Map.Entry<Character,  Integer> entry : countMap.entrySet()) {
             if (entry.getValue() == 1) {
                 return entry.getKey();
             }
